@@ -14,6 +14,8 @@ The training data was provided by the Bengali.AI association. It had around 50K 
  - Python Imaging Library
 
 # Usage
+Some models weights were split due to a file size limitation. There is a need to use the hsplit executable to join the weights file for the models located in folder "resnet55_multiple" and "resnet30".
+
 - Inference
 Put the handwritten images in the examples folder and execute the predict script.
 - Training
